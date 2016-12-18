@@ -2,6 +2,12 @@
 
 For mapping array creates a range from start point to end point inclusive
 
+## Installation
+
+```
+npm install babel-plugin-range-operators --dev
+```
+
 ## Input
 
 ```javascript
