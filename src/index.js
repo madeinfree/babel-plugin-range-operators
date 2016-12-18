@@ -24,7 +24,7 @@ export default function (babel) {
       ExpressionStatement(path) {
         const { node } = path
         if (node.expression.type === 'CallExpression') {
-          let calleeIsMap = t.isIdentifier(node.expression.callee.property, {name: 'foreach'})
+          let calleeIsMap = t.isIdentifier(node.expression.callee.property, {name: 'forEach'})
           let isStringLiteral = t.isStringLiteral(node.expression.callee.object)
           if (!calleeIsMap || !isStringLiteral) {
             path.skip()
