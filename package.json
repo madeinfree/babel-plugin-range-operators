@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-range-operators",
-  "version": "1.0.2",
-  "description": "For mapping array creates a range from start point to end point inclusive",
+  "version": "1.0.3",
+  "description": "Foreach creates a range from start point to end point inclusive",
   "main": "./lib/index.js",
   "files": [
     "lib",
